@@ -37,6 +37,7 @@ void heapify(int *array, size_t size, size_t calcsize, int idx)
 void heap_sort(int *array, size_t size)
 {
 	int i;
+	
 	for (i = size / 2 - 1; i >= 0; i--)
 		heapify(array, size, size, i);
 	for (i = size - 1; i > 0; i--)
