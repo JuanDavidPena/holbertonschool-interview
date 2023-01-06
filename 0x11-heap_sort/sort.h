@@ -6,11 +6,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-#define swap(x, y) { 
-  int temp = x; 
-  x = y; 
-  y = temp; 
-}
+#define swap(x, y) { int temp = x; x = y; y = temp; }
 
 void print_array(const int *array, size_t size);
 
